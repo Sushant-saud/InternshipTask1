@@ -1,0 +1,44 @@
+.Child-Comment{
+    align-items: center;
+    display: flex;
+    gap:1rem;
+}
+.UserImage{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border:2.5px solid rgb(63, 67, 141);
+}
+.active{
+    border:none;
+}
+
+.UserImage img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+}
+.Comment-Info{
+    position: relative;
+}
+.Comment-Info .User-Name{
+   color:#cac3c3;
+   font-size:0.9rem;
+   opacity:0.7;
+    font-weight: 600;
+}
+.Comment-Info .data{
+    color:#9d9393;
+    opacity:0.4;
+    font-size:0.7rem;
+    position: absolute;
+    display: block;
+    width: 100px;
+    top:6px;
+    left:94px;
+}
+.Comment-Info .Desc{
+    margin-top: 2px;
+    color:rgb(245, 238, 238);
+    font-size:1.2rem;
+}
